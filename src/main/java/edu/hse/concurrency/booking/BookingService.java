@@ -1,6 +1,7 @@
 package edu.hse.concurrency.booking;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -20,4 +21,6 @@ public interface BookingService {
     SeatStatus status(Seat seat);
 
     void shutdown();
+
+
 }
